@@ -1,0 +1,83 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+/* Custome Style */
+a {
+    transition: 0.5s;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.cutome-btn {
+    padding: 12px 33px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #289bde;
+    background-color: #289bde;
+    transition: all 0.4s;
+}
+.cutome-btn:hover {
+    background-color: transparent;
+    color: #289bde;
+}
+.search-btn {
+    padding: 7px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #289bde;
+    background-color: #289bde;
+    transition: all 0.4s;
+}
+.search-btn:hover {
+    background-color: transparent;
+    color: #289bde;
+}
+.input:focus {
+    outline: 0 !important;
+    border: 1px solid #289bde;
+    box-shadow: 0 0 10px #289bde;
+}
+/* End Custome Style */
+
+/* Start NavBar Style */
+.header-area {
+    padding: 65px 0px;
+}
+.navbar-brand {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #4a4a4a;
+}
+.navbar-nav .nav-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #777777;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+    color: #289bde;
+}
+/* End NavBar Style */
+/* End NavBar Style */
+/* End NavBar Style */
