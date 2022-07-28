@@ -37,6 +37,9 @@ img {
 .mb-24 {
     margin-bottom: 24px;
 }
+.px-100 {
+    padding: 0 100px;
+}
 .cutome-btn {
     padding: 12px 33px;
     font-weight: 600;
@@ -73,53 +76,15 @@ img {
     border: 1px solid #289bde;
     box-shadow: 0 0 10px #289bde;
 }
-.section-title {
-    max-width: 616px;
-    text-align: center;
-    margin: 0 auto;
-}
-.section-title h2 {
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 60px;
-    text-align: center;
-    color: #1d1d1d;
-}
-.section-title p {
-    padding: 10px 0px 50px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    text-align: center;
-    color: #777777;
-}
+
 /* End Custome Style */
 
 /* Start NavBar Style */
-.header-area {
+.py-64 {
     padding: 64px 0px;
 }
-.navbar-brand {
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
-    color: #4a4a4a;
-}
-.navbar-nav .nav-link {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    text-align: center;
-    color: #777777;
-    transition: color 0.4s;
-}
-.navbar-nav .nav-link:hover {
-    color: #289bde;
-}
-.navbar-nav .nav-link.active,
-.navbar-nav .show > .nav-link {
-    color: #289bde;
-} /* End NavBar Style */
+
+/* End NavBar Style */
 
 /* Start Banner Style */
 .banner-bg {
@@ -171,40 +136,7 @@ img {
 } /* End Banner Style */
 
 /* Start Popular Course Style */
-.single-popular-course {
-    border: 1px solid #e8e8e8;
-    border-radius: 5px;
-    display: flex;
-}
-.popular-course-thumbnail img {
-    height: 100%;
-    max-width: 200px;
-}
-.popular-course-description {
-    padding: 33px 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.popular-course-description h3 {
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 38px;
-    color: #4a4a4a;
-}
-.popular-course-description p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #777777;
-}
-.popular-course-description .course-price {
-    padding: 0;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    color: #289bde;
-}
+
 .see-more-courses {
     display: block;
     margin: 62px auto 0px;
@@ -257,122 +189,22 @@ img {
 } /* End Explore-Elearning Style */
 
 /* Start Join Us Style */
-.join-us-area {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #289bde;
-    border-radius: 5px;
+.h-300 {
     height: 300px;
-    padding: 0px 100px;
 }
-.join-us-details {
+.w-530 {
     width: 530px;
 }
-.join-us-details h2 {
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 60px;
-    color: #ffffff;
-}
-.join-us-details p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #f4f4f4;
-    padding-top: 20px;
-}
-.join-us-btn {
-    background-color: #ffffff;
-    color: #289bde;
-}
-.join-us-btn:hover {
-    background-color: transparent;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-} /* End Join Us Style */
+/* End Join Us Style */
 
-/* Start Review Style */
-.successful-student-area .section-title {
-    margin: 0 0px 0px;
-    text-align: left;
-}
-.successful-student-area .section-title h2 {
-    text-align: left;
-}
-.successful-student-area .section-title p {
-    text-align: left;
-    padding-top: 20px;
-}
-.single-successful-student {
-    border-radius: 5px;
-}
-.single-successful-student .card-body {
-    border: 1px solid #e8e8e8;
-    border-top: 0;
-} /* End Review Style */
-
-/* Start Comment Style */
-.students-feedback {
-    padding: 40px;
-    border: 1px solid #e8e8e8;
-}
-.rating-and-quote {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.rating-and-quote .quote i {
-    color: #d2d2d2;
-    font-size: 55px;
-    font-weight: 700;
-}
-.rating-and-quote .rating {
-    display: flex;
-    margin-bottom: 0px;
-}
-.rating-and-quote .rating {
-    display: flex;
-    margin-bottom: 0px;
-}
-.rating-and-quote .rating li i {
-    font-size: 16px;
-    color: orange;
-}
-.students-feedback p {
-    padding: 20px 0px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #777777;
-}
-.student-profile {
-    display: flex;
-    align-items: center;
-}
-.student-profile img {
-    width: 42px;
-    height: 42px;
-}
-.student-profile img {
-    width: 42px;
-    height: 42px;
-}
-.student-details {
-    margin-left: 20px;
-}
-.student-details .student-name {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
+/* FAQ Style */
+.accordion-button:not(.collapsed) {
     color: #4a4a4a;
+    background-color: rgba(40, 155, 222, 0.1);
 }
-.student-details .student-title {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #777777;
-    padding: 1px 0px;
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
 }
-
-/* End Comment Style */
