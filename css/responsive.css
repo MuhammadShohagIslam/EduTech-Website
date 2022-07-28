@@ -1,0 +1,88 @@
+/* Start Small Devices */
+@media only screen and (max-width: 767px) {
+    .py-32 {
+        padding: 32px 0px;
+    }
+    .w-50 {
+        width: 100% !important;
+    }
+    .header-register {
+        display: none !important;
+    }
+    .banner-description {
+        width: 80% !important;
+    }
+    .banner-description h1 {
+        font-size: 20px !important;
+    }
+    .popular-course-description h3 {
+        font-size: 1rem;
+    }
+    .explore-elearning-course-statistic {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .course-statistic {
+        margin-right: 10px;
+    }
+    .explore-btn {
+        padding-bottom: 25px;
+    }
+    .brand {
+        display: none;
+    }
+    .join-us-area {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        padding: 29px 0px;
+    }
+    .join-us-register {
+        text-align: center;
+    }
+    .successful-student-area .section-title {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .succesful-student-view-all-btn {
+        margin-top: 15px;
+    }
+    .students-feedback {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .student-feedbeck-area .carousel-control-prev {
+        display: none;
+    }
+    .student-feedbeck-area .carousel-control-next {
+        display: none;
+    }
+    .faq-wrapper {
+        width: 100% !important;
+    }
+    .footer-description {
+        width: 100% !important;
+    }
+}
+/* End Small Devices */
+
+/* Start Medium Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .py-60 {
+        padding: 60px 0px;
+    }
+    .w-81 {
+        width: 81% !important;
+    }
+    .faq-wrapper {
+        width: 100% !important;
+    }
+    .header-register {
+        position: absolute;
+        right: 10%;
+        top: 17px;
+    }
+}
+/* End Medium Devices */

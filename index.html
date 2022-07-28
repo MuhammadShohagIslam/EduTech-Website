@@ -18,6 +18,8 @@
         ></script>
         <!-- Custome CSS -->
         <link rel="stylesheet" href="css/style.css" />
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css" />
         <title>Trending EduTech</title>
     </head>
     <body>
@@ -25,7 +27,7 @@
             <!-- Start Navbar Section -->
             <div class="container position-relative">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-10">
+                    <div class="col-sm-12 col-md-12 col-lg-10">
                         <nav class="navbar navbar-expand-lg bg-white">
                             <a
                                 class="navbar-brand fs-1 fw-semibold text-black"
@@ -105,7 +107,7 @@
                         </nav>
                     </div>
                     <div
-                        class="col-sm-12 col-lg-2 d-flex align-items-center justify-content-end header-register"
+                        class="col-sm-12 col-md-12 col-lg-2 d-flex align-items-center justify-content-end header-register"
                     >
                         <div class="login-regiter-btn">
                             <a href="" class="d-inline-block">
@@ -253,7 +255,7 @@
                     </div>
                     <div class="popular-course-wrapper">
                         <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-6 mb-24">
+                            <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
                                 <div
                                     class="single-popular-course border rounded d-lg-flex d-md-flex d-sm-block flex-lg-row flex-md-row flex-sm-column"
                                 >
@@ -285,7 +287,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-12 col-lg-6 mb-24">
+                            <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
                                 <div
                                     class="single-popular-course border rounded d-lg-flex d-md-flex d-sm-block flex-lg-row flex-md-row flex-sm-column"
                                 >
@@ -316,7 +318,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-12 col-lg-6 mb-24">
+                            <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
                                 <div
                                     class="single-popular-course border rounded d-lg-flex d-md-flex d-sm-block flex-lg-row flex-md-row flex-sm-column"
                                 >
@@ -348,7 +350,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-12 col-lg-6 mb-24">
+                            <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
                                 <div
                                     class="single-popular-course border rounded d-lg-flex d-md-flex d-sm-block flex-lg-row flex-md-row flex-sm-column"
                                 >
@@ -379,7 +381,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-12 col-lg-6 mb-24">
+                            <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
                                 <div
                                     class="single-popular-course border rounded d-lg-flex d-md-flex d-sm-block flex-lg-row flex-md-row flex-sm-column"
                                 >
@@ -411,7 +413,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-12 col-md-12 col-lg-6 mb-24">
+                            <div class="col-sm-12 col-md-12 col-lg-6 mb-4">
                                 <div
                                     class="single-popular-course border rounded d-lg-flex d-md-flex d-sm-block flex-lg-row flex-md-row flex-sm-column"
                                 >
@@ -472,7 +474,7 @@
                             </div>
                         </div>
                         <div
-                            class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center pt-3 pt-md-0 pt-lg-0"
+                            class="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center pt-4 py-md-5 py-lg-5"
                         >
                             <div
                                 class="explore-elearning-details rounded px-sm-2 px-md-2 px-lg-5"
@@ -579,18 +581,88 @@
                         <div
                             class="join-us-register w-50 text-sm-start text-md-center text-lg-end pt-sm-2 pt-md-2 pt-lg-0"
                         >
-                            <a href="" class="d-inline-block">
-                                <button
-                                    type="button"
-                                    class="btn btn-outline-white bg-white text-primary py-sm-2 py-md-2 py-lg-3 px-4 fw-bold"
-                                >
-                                    Register Now
-                                </button>
-                            </a>
+                            <button
+                                type="button"
+                                class="btn btn-outline-white bg-white text-primary py-sm-2 py-md-2 py-lg-3 px-4 fw-bold"
+                                data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"
+                            >
+                                Register Now
+                            </button>
                         </div>
                     </div>
                 </div>
             </section>
+            <!-- Start Modal -->
+            <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                Join Us Through Register
+                            </h5>
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label
+                                        for="exampleInputEmail1"
+                                        class="form-label"
+                                        >Email address</label
+                                    >
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="exampleInputEmail1"
+                                        aria-describedby="emailHelp"
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <label
+                                        for="exampleInputPassword1"
+                                        class="form-label"
+                                        >Password</label
+                                    >
+                                    <input
+                                        type="password"
+                                        class="form-control"
+                                        id="exampleInputPassword1"
+                                    />
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input
+                                        type="checkbox"
+                                        class="form-check-input"
+                                        id="exampleCheck1"
+                                    />
+                                    <label
+                                        class="form-check-label"
+                                        for="exampleCheck1"
+                                        >Check me out</label
+                                    >
+                                </div>
+                                <button type="submit" class="btn btn-primary">
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Modal -->
+
             <!-- End Join Us Section -->
 
             <!-- Start Successfu-Student Section -->
@@ -1063,19 +1135,19 @@
                             </div>
                         </div>
                         <button
-                            class="carousel-control-prev"
+                            class="carousel-control-prev d-sm-none d-md-none d-lg-block"
                             type="button"
                             data-bs-target="#carouselExampleControls"
                             data-bs-slide="prev"
                         >
                             <span
-                                class="carousel-control-prev-icon position-absolute top-50 top-48 start-0 translate-middle bg-primary rounded-circle"
+                                class="carousel-control-prev-icon position-absolute top-50 start-0 translate-middle bg-primary rounded-circle"
                                 aria-hidden="true"
                             ></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
                         <button
-                            class="carousel-control-next"
+                            class="carousel-control-next d-sm-none d-md-none d-lg-block"
                             type="button"
                             data-bs-target="#carouselExampleControls"
                             data-bs-slide="next"
@@ -1247,7 +1319,9 @@
                         Trusted by over 800+ companies
                     </h2>
                     <div class="row">
-                        <div class="col-lg-2 d-flex align-items-center">
+                        <div
+                            class="col-md-2 col-lg-2 d-flex align-items-center"
+                        >
                             <div class="brand-img">
                                 <img
                                     src="images/company/company-1.png"
@@ -1256,7 +1330,9 @@
                                 />
                             </div>
                         </div>
-                        <div class="col-lg-2 d-flex align-items-center">
+                        <div
+                            class="col-md-2 col-lg-2 d-flex align-items-center"
+                        >
                             <div class="brand-img">
                                 <img
                                     src="images/company/company-2.png"
@@ -1265,7 +1341,9 @@
                                 />
                             </div>
                         </div>
-                        <div class="col-lg-2 d-flex align-items-center">
+                        <div
+                            class="col-md-2 col-lg-2 d-flex align-items-center"
+                        >
                             <div class="brand-img">
                                 <img
                                     src="images/company/company-3.png"
@@ -1274,7 +1352,9 @@
                                 />
                             </div>
                         </div>
-                        <div class="col-lg-2 d-flex align-items-center">
+                        <div
+                            class="col-md-2 col-lg-2 d-flex align-items-center"
+                        >
                             <div class="brand-img">
                                 <img
                                     src="images/company/company-4.png"
@@ -1283,7 +1363,9 @@
                                 />
                             </div>
                         </div>
-                        <div class="col-lg-2 d-flex align-items-center">
+                        <div
+                            class="col-md-2 col-lg-2 d-flex align-items-center"
+                        >
                             <div class="brand-img">
                                 <img
                                     src="images/company/company-5.png"
@@ -1292,7 +1374,9 @@
                                 />
                             </div>
                         </div>
-                        <div class="col-lg-2 d-flex align-items-center">
+                        <div
+                            class="col-md-2 col-lg-2 d-flex align-items-center"
+                        >
                             <div class="brand-img">
                                 <img
                                     src="images/company/company-6.png"
@@ -1375,13 +1459,8 @@
 
         <!-- Bootstrap JS -->
         <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-            integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
-            integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+            integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
             crossorigin="anonymous"
         ></script>
     </body>
