@@ -9,28 +9,6 @@
 body {
     font-family: "Poppins", sans-serif;
 }
-/* Custome Style */
-a {
-    transition: 0.5s;
-}
-a:hover {
-    text-decoration: none;
-}
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
-p {
-    margin: 0;
-}
-li {
-    list-style-type: none;
-}
-img {
-    max-width: 100%;
-}
 .py-130 {
     padding: 130px 0px;
 }
@@ -40,46 +18,13 @@ img {
 .px-100 {
     padding: 0 100px;
 }
-.cutome-btn {
-    padding: 12px 33px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #ffffff;
-    border: 1px solid #289bde;
-    background-color: #289bde;
-    transition: all 0.4s;
+.bg-primary{
+    background-color: #289BDE !important;
 }
-.cutome-btn:hover {
-    background-color: transparent;
-    color: #289bde;
-}
-.search-btn {
-    padding: 7px 12px;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 18px;
-    text-align: center;
-    color: #ffffff;
-    border-radius: 4px;
-    border: 1px solid #289bde;
-    background-color: #289bde;
-    transition: all 0.4s;
-}
-.search-btn:hover {
-    background-color: transparent;
-    color: #289bde;
-}
-.input:focus {
-    outline: 0 !important;
-    border: 1px solid #289bde;
-    box-shadow: 0 0 10px #289bde;
-}
-
 /* End Custome Style */
 
 /* Start NavBar Style */
+
 .py-64 {
     padding: 64px 0px;
 }
@@ -90,8 +35,6 @@ img {
 .banner-bg {
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 700px;
-    position: relative;
 }
 .banner-bg::before {
     content: "";
@@ -106,87 +49,24 @@ img {
 .item-bg1 {
     background-image: url("../images/working.png");
 }
-.banner-description {
-    width: 690px;
-    position: relative;
-    z-index: 20;
-}
-.banner-description h1 {
-    font-weight: 600;
-    font-size: 65px;
-    line-height: 85px;
-    text-align: center;
-    color: #ffffff;
-}
-.banner-description p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    color: #f4f4f4;
-    padding: 20px 0px 30px;
-}
-.banner-description .banner-btn {
-    padding: 13px 33px;
-}
-.banner-description .banner-btn:hover {
-    border: 1px solid #289bde;
-    background-color: transparent;
-    color: #ffffff;
-} /* End Banner Style */
+/* End Banner Style */
 
-/* Start Popular Course Style */
-
-.see-more-courses {
-    display: block;
-    margin: 62px auto 0px;
-} /* End Popular Course Style */
-
+/* Start Popular Course */
+.popular-course-thumbnail img{
+    height: 200px;
+    min-width: 200px;
+}
+/* End  */
 /* Start Explore-Elearning Style */
-.bg-color {
-    background: #f4fafd;
-    border-radius: 5px;
-}
+
 .explore-elearning-thumbnail img {
     height: 806px;
-    width: 100%;
-    border-radius: 5px 0px 0px 5px;
 }
-.explore-elearning-details {
+.explore-bg {
     background: #f4fafd;
-    border-radius: 5px;
-    padding: 0px 30px 0px 28px;
 }
-.explore-elearning-details h2 {
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 60px;
-    color: #1d1d1d;
-    padding-bottom: 10px;
-}
-.explore-elearning-details p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    color: #777777;
-}
-.course-statistic {
-    margin-right: 35px;
-    padding: 30px 0px;
-}
-.course-statistic h2 {
-    font-weight: 600;
-    font-size: 45px;
-    line-height: 60px;
-    color: #1d1d1d;
-    padding-bottom: 0px;
-}
-.course-statistic p {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    color: #777777;
-} /* End Explore-Elearning Style */
+
+/* End Explore-Elearning Style */
 
 /* Start Join Us Style */
 .h-300 {
@@ -208,3 +88,99 @@ img {
     outline: 0;
     box-shadow: none;
 }
+/* End FAQ Style */
+
+/* Responsive Design */
+/* Start Small Devices */
+@media only screen and (max-width: 767px) {
+    .py-32{
+        padding: 32px 0px; 
+    }
+    .w-50{
+        width: 100% !important;
+    }
+    .header-register {
+        display: none !important;
+    }
+    .banner-description{
+        width: 80% !important;
+    }
+    .banner-description h1{
+        font-size: 20px !important;
+    }
+    .popular-course-description h3{
+        font-size: 1rem;
+    }
+    .explore-elearning-course-statistic{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .course-statistic{
+        margin-right: 10px;
+    }
+    .explore-btn{
+        padding-bottom: 25px;
+    }
+    .brand{
+        display: none;
+    }
+    .join-us-area{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        text-align: center;
+        padding: 29px 0px;
+    }
+    .join-us-register{
+        text-align: center;
+    }
+    .successful-student-area .section-title{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .succesful-student-view-all-btn{
+        margin-top: 15px;
+    }
+    .students-feedback{
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .student-feedbeck-area .carousel-control-prev {
+        left: 12px;
+        top: -18px;
+    }
+    .student-feedbeck-area .carousel-control-next {
+        right: -18px;
+        top: -21px;
+    }
+    .faq-wrapper {
+        width: 100% !important;
+    }
+    .footer-description{
+        width: 100% !important;
+    }
+}
+/* End Small Devices */
+
+/* Start Medium Devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .py-60 {
+        padding: 60px 0px;
+    }
+    .w-81 {
+        width: 81% !important;
+    }
+    .top-48 {
+        top: 48.5% !important;
+    }
+    .header-register {
+        position: absolute;
+        right: 10%;
+        top: 17px;
+    }
+
+}
+/* End Medium Devices */
+
+
